@@ -1,7 +1,11 @@
 <header class="bar">
-  <a class="wordmark" href="<%= relative_url '/' %>">
-    Erlingur Þorsteinsson<span class="wordmark__rule"> — erlingur.is</span>
-  </a>
+  <% if on_home? %>
+    <span class="bar__issue">
+      <span class="muted">↗</span> <%= Time.now.strftime("%B %Y") %>
+    </span>
+  <% else %>
+    <a class="wordmark" href="<%= relative_url '/' %>">Erlingur Þorsteinsson</a>
+  <% end %>
   <nav class="nav">
     <a href="<%= relative_url '/writing/' %>"<%= ' aria-current="page"'.html_safe if current_path.start_with?('/writing') %>>Writing</a>
     <a href="<%= relative_url '/work/' %>"<%= ' aria-current="page"'.html_safe if current_path.start_with?('/work') %>>Work</a>

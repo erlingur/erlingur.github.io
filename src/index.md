@@ -6,28 +6,27 @@ page_class: page--home
 
 <section class="home">
 
-  <header class="lede">
-    <h1 class="lede__name">
-      Erlingur<span class="last">Þorsteinsson</span>
-    </h1>
-    <div class="lede__meta">
-      <strong><%= Time.now.strftime("%Y") %></strong>
-      Reykjavík, Iceland<br />
-      64°08′N 21°56′W
-    </div>
-  </header>
-
-  <div class="intro">
-    <div class="intro__label">Index</div>
-    <div class="intro__body">
-      <p>
-        Software developer with thirty years at the keyboard and twenty
-        building <a href="/work">auction software for the fishing industry</a>.
-        On staff at <a href="https://www.aucxis.com" rel="noopener">Aucxis</a>;
-        available for selected consulting work in Ruby on Rails, distributed
-        systems, and domain-heavy backends.
-      </p>
-    </div>
+  <div class="lede-row">
+    <p class="lede">
+      <strong>Erlingur Þorsteinsson</strong> — software developer in Reykjavík.
+      On staff at <a href="https://www.aucxis.com" rel="noopener">Aucxis</a>;
+      available for selected consulting in Ruby on Rails, distributed systems,
+      and domain-heavy backends.
+    </p>
+    <aside class="lede-meta">
+      <div class="lede-meta__row">
+        <span class="lede-meta__k">Place</span>
+        <span class="lede-meta__v">Reykjavík</span>
+      </div>
+      <div class="lede-meta__row">
+        <span class="lede-meta__k">Time</span>
+        <span class="lede-meta__v">GMT, UTC+0</span>
+      </div>
+      <div class="lede-meta__row">
+        <span class="lede-meta__k">Status</span>
+        <span class="lede-meta__v"><strong>↗ Available</strong></span>
+      </div>
+    </aside>
   </div>
 
   <section class="section">
@@ -41,7 +40,7 @@ page_class: page--home
           </li>
         <% end %>
       </ul>
-      <p class="small"><a href="/writing">All writing →</a></p>
+      <p class="small"><a href="/writing/">All writing →</a></p>
     </div>
   </section>
 
@@ -62,7 +61,7 @@ page_class: page--home
           opinions on architecture. Engagements typically four weeks and up.</p>
         </div>
       </div>
-      <p class="small"><a href="/work">More on consulting →</a></p>
+      <p class="small"><a href="/work/">More on consulting →</a></p>
     </div>
   </section>
 

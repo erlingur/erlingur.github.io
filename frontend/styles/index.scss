@@ -79,11 +79,12 @@ img, svg { display: block; max-width: 100%; }
 .bar {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
   gap: var(--gutter);
   padding: calc(var(--b) * 1.5) 0 var(--b);
   border-bottom: 1px solid var(--rule);
 }
+
+.bar .nav { margin-left: auto; }
 
 .wordmark {
   font-size: var(--t-0);
@@ -93,10 +94,12 @@ img, svg { display: block; max-width: 100%; }
   text-decoration: none;
 }
 
-.wordmark__rule {
+.bar__issue {
+  font-size: var(--t--1);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
   color: var(--mute);
-  font-weight: 400;
-  margin-left: 0.5em;
+  font-variant-numeric: tabular-nums;
 }
 
 .nav { display: flex; gap: 1.75rem; }
@@ -196,44 +199,47 @@ blockquote {
   gap: calc(var(--b) * 2.5);
 }
 
-.lede {
+.lede-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: end;
+  grid-template-columns: minmax(0, 1fr) 12rem;
   gap: var(--gutter);
-  padding-top: calc(var(--b) * 1.5);
+  align-items: start;
+  padding-top: var(--b);
 }
-.lede__name {
-  font-size: clamp(3rem, 12vw, var(--t-6));
-  font-weight: 500;
-  letter-spacing: -0.04em;
-  line-height: 0.92;
+
+.lede {
+  font-size: clamp(1.5rem, 2.8vw, 2.25rem);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  font-weight: 400;
+  max-width: 44rem;
+  margin: 0;
 }
-.lede__name .last { display: block; }
-.lede__meta {
-  text-align: right;
+.lede strong { font-weight: 600; letter-spacing: -0.025em; }
+.lede a { text-decoration-color: rgba(17,17,17,0.25); }
+
+.lede-meta {
   font-size: var(--t--1);
   line-height: 1.4;
   color: var(--mute);
-  padding-bottom: 0.6em;
-}
-.lede__meta strong { display: block; color: var(--ink); font-weight: 500; }
-
-.intro {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--rule);
   display: grid;
-  grid-template-columns: 8rem minmax(0, var(--measure));
-  gap: var(--gutter);
-  align-items: start;
+  gap: 0.35rem;
 }
-.intro__label {
-  font-size: var(--t--1);
+.lede-meta__row {
+  display: grid;
+  grid-template-columns: 3.5rem 1fr;
+  gap: 0.5rem;
+}
+.lede-meta__k {
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
+  font-size: 0.78rem;
   color: var(--mute);
-  padding-top: 0.45em;
 }
-.intro__body p { font-size: var(--t-1); max-width: none; }
-.intro__body p:last-child { margin-bottom: 0; }
+.lede-meta__v { color: var(--ink); font-variant-numeric: tabular-nums; }
+.lede-meta__v strong { font-weight: 500; }
 
 .section {
   display: grid;
@@ -258,9 +264,9 @@ blockquote {
 }
 
 @media (max-width: 720px) {
-  .lede { grid-template-columns: 1fr; align-items: start; }
-  .lede__meta { text-align: left; padding-bottom: 0; }
-  .intro, .section { grid-template-columns: 1fr; gap: 0.75rem; }
+  .lede-row { grid-template-columns: 1fr; gap: var(--b); }
+  .lede-meta { max-width: 18rem; }
+  .section { grid-template-columns: 1fr; gap: 0.75rem; }
   .section__label { position: static; }
 }
 
