@@ -1,0 +1,18 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<% resource_title = strip_html(strip_newlines(title)) %>
+<title><% if resource_title && resource_title != "Index" && !resource_title.empty? %><%= resource_title %> — <%= metadata.title %><% else %><%= metadata.title %><% end %></title>
+
+<meta name="description" content="<%= metadata.description %>" />
+<meta name="author" content="<%= metadata.author %>" />
+
+<meta property="og:title" content="<%= resource_title && resource_title != "Index" ? resource_title : metadata.title %>" />
+<meta property="og:description" content="<%= metadata.description %>" />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://rsms.me/" crossorigin />
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+<link rel="stylesheet" href="<%= asset_path :css %>" />
+<script src="<%= asset_path :js %>" defer></script>
+<%= live_reload_dev_js %>

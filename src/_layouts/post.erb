@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article>
+  <h1 class="post__title"><%= data.title %></h1>
+  <p class="post__meta">
+    <time datetime="<%= data.date.xmlschema %>"><%= data.date.strftime("%-d %B %Y") %></time>
+    <% if data.categories&.any? %> · <%= data.categories.join(", ") %><% end %>
+  </p>
+  <div class="prose">
+    <%= yield %>
+  </div>
+</article>
