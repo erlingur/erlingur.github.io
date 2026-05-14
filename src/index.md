@@ -9,8 +9,8 @@ page_class: page--home
   <div class="lede-row">
     <p class="lede">
       <strong>Erlingur Þorsteinsson</strong> — software developer in Reykjavík.
-      On staff at <a href="https://www.aucxis.com" rel="noopener">Aucxis</a>;
-      available for selected consulting in Ruby on Rails, distributed systems,
+      Twenty years building software for fish auctions, in Iceland and across
+      Europe. Available for consulting in Ruby on Rails, distributed systems,
       and domain-heavy backends.
     </p>
     <aside class="lede-meta">
@@ -48,10 +48,11 @@ page_class: page--home
     <div class="section__label">Work<br /><span class="muted">Selected</span></div>
     <div class="section__body">
       <div class="work-card">
-        <div class="work-card__title">Aucxis · Auction platforms</div>
+        <div class="work-card__title">Auction platforms</div>
         <div class="work-card__body">
-          <p>Building the systems that move fish from boats to markets across
-          Europe. Real-time bidding, ERP integrations, hardware on the auction floor.</p>
+          <p>Two decades building the systems that move fish from boats to
+          markets — Icelandic and European auctions. Real-time bidding, ERP
+          integrations, hardware on the auction floor.</p>
         </div>
       </div>
       <div class="work-card">

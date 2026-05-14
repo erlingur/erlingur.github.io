@@ -7,9 +7,9 @@ I started programming at ten and never quite stopped. Today I live in Reykjavík
 
 ## What I do
 
-Since 2007 I have built software for fish auctions: systems that handle live bidding, weigh-bridge integrations, settlement, and the long tail of details that make a real auction floor work. I'm currently on staff at [Aucxis](https://www.aucxis.com), a Belgian company that operates auction platforms across Europe.
+Since 2007 I've built software for fish auctions: live bidding, weigh-bridge integrations, settlement, and the long tail of details that make a real auction floor work. The work has run the length of the supply chain — boats, markets, and the systems that connect them — first in Icelandic markets, more recently across Europe.
 
-Outside of that, I take on occasional consulting work — typically Rails projects where the domain is interesting and the team wants someone with miles on the clock.
+These days my time is going into independent consulting work, typically Rails projects where the domain is interesting and the team wants someone with miles on the clock.
 
 ## Background
 

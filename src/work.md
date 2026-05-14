@@ -4,7 +4,7 @@ title: Work
 permalink: /work/
 ---
 
-I take on a small number of consulting engagements each year, alongside my day job at Aucxis. If your problem sits somewhere on the chart below, we should probably talk.
+I take on a small number of consulting engagements at a time. If your problem sits somewhere on the chart below, we should probably talk.
 
 ## Where I'm useful
 
