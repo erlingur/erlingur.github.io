@@ -8,9 +8,9 @@ page_class: page--home
 
   <div class="lede-row">
     <p class="lede">
-      <strong>Erlingur Þorsteinsson</strong> — software developer in Reykjavík.
+      <strong>Erlingur Þorsteinsson</strong>, software developer in Reykjavík.
       Twenty years building software for fish auctions, in Iceland and across
-      Europe. Available for consulting across the full stack — Ruby on Rails,
+      Europe. Available for consulting across the full stack: Ruby on Rails,
       web frontends, databases, and the infrastructure underneath.
     </p>
     <aside class="lede-meta">
@@ -51,8 +51,8 @@ page_class: page--home
         <div class="work-card__title">Auction platforms</div>
         <div class="work-card__body">
           <p>Two decades shipping production auction software across Iceland
-          and Europe — real-time bidding, settlement engines, ERP back-offices,
-          and the integrations that hold the supply chain together.</p>
+          and Europe. Real-time bidding, invoicing, ERP back-offices, and the
+          integrations that hold the supply chain together.</p>
         </div>
       </div>
       <div class="work-card">
