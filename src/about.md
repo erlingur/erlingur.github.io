@@ -15,7 +15,7 @@ These days I'm a Software Architect on auction-platform systems. From summer 202
 
 ## Background
 
-Three decades of programming, mostly self-taught at the start. Twenty years in a single peculiar industry. Along the way I founded one of Iceland's first web-based streaming services (in 2008) and co-founded an auction-technology company (in 2021).
+Three decades of programming, mostly self-taught at the start. Twenty years in a single peculiar industry. Along the way I founded Filma.is, the first Icelandic web-based streaming service (2008, acquired 2014), and co-founded an auction-technology company in 2021.
 
 I'm properly full-stack: frontend, Rails, databases, and the infrastructure underneath. The last bit covers Kubernetes, VMware vSphere, networking, server setup, and ops. Happiest in the data model and the boring middle, but I've shipped and operated plenty of the rest.
 

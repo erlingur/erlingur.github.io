@@ -20,4 +20,4 @@ Engagements typically run four weeks and up. I prefer fixed scope over open reta
 
 ## Get in touch
 
-<a href="mailto:erlingur@erlingur.is">erlingur@erlingur.is</a>. A paragraph about the problem is enough to start.
+<a href="mailto:erlingur@erlingur.is">erlingur@erlingur.is</a>. A paragraph about the problem is enough to start. Reply within a working day.

@@ -56,6 +56,14 @@ page_class: page--home
         </div>
       </div>
       <div class="work-card">
+        <div class="work-card__title">Filma.is</div>
+        <div class="work-card__body">
+          <p>Founded the first Icelandic web-based streaming service in 2008.
+          Ruby backend, streaming infrastructure, licensing deals with major
+          Hollywood studios. Acquired in 2014.</p>
+        </div>
+      </div>
+      <div class="work-card">
         <div class="work-card__title">Independent consulting</div>
         <div class="work-card__body">
           <p>Rails greenfields and rescues, domain modelling, and second
@@ -63,14 +71,6 @@ page_class: page--home
         </div>
       </div>
       <p class="small"><a href="/work/">More on consulting →</a></p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section__label">Contact</div>
-    <div class="section__body">
-      <p><a href="mailto:erlingur@erlingur.is">erlingur@erlingur.is</a></p>
-      <p class="small muted">Reply within a working day.</p>
     </div>
   </section>
 
