@@ -7,7 +7,7 @@ I started programming at ten and never quite stopped. Today I live in Reykjavík
 
 ## What I do
 
-Since 2007 I've built software for fish auctions: live bidding, weigh-bridge integrations, settlement, and the long tail of details that make a real auction floor work. The work has run the length of the supply chain — boats, markets, and the systems that connect them — first in Icelandic markets, more recently across Europe.
+Since 2007 I've built software for fish auctions: live bidding, settlement, ERP integrations, and the long tail of details that make a real auction floor work. The work has run the length of the supply chain — boats, markets, and the systems that connect them — first in Icelandic markets, more recently across Europe.
 
 These days my time is going into independent consulting work, typically Rails projects where the domain is interesting and the team wants someone with miles on the clock.
 
@@ -15,7 +15,7 @@ These days my time is going into independent consulting work, typically Rails pr
 
 - Three decades of programming, mostly self-taught at the start.
 - Twenty years building production software for a single, peculiar industry.
-- Comfortable across the stack but happiest in the data model and the boring middle.
+- Properly full-stack: frontend (HTML/CSS/JS), Rails, databases, and the infrastructure underneath — Kubernetes, VMware vSphere, networking, server setup and ops. Happiest in the data model and the boring middle, but I've shipped and operated plenty of all the rest.
 
 ## Off the keyboard
 

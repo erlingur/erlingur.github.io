@@ -9,8 +9,9 @@ I take on a small number of consulting engagements at a time. If your problem si
 ## Where I'm useful
 
 - **Ruby on Rails.** Greenfield builds, rescues of older codebases, performance and structural work. Fifteen-plus years with the framework.
+- **Full-stack web.** Frontend through database — HTML, CSS, JavaScript, Rails, Postgres. Server-rendered apps, JS-heavy apps, and the messy middle.
+- **Infrastructure & ops.** Kubernetes, VMware vSphere, networking, server setup and maintenance. Production systems that have to stay up — I've operated them, not just deployed them.
 - **Domain modelling.** Auctions, marketplaces, settlement, multi-party flows — anything where the schema is the hard part.
-- **Backends with weight.** Long-running processes, integrations with stubborn external systems, hardware in the loop, real-time bidding and pricing.
 - **Second opinions.** A few days reading the code, talking to the team, and writing down what I'd actually do.
 
 ## How I work
