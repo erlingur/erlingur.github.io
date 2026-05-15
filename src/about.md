@@ -3,20 +3,24 @@ layout: page
 title: About
 ---
 
-I started programming at ten and never quite stopped. Home is Kópavogur, just south of Reykjavík, and the work is mostly Ruby on Rails, a tool I've leaned on since 2009.
+At ten, my stepfather and grandfather sat me down at a computer and taught me to program. By thirteen I had my own Linux server running Slackware; at sixteen I'd sold my first website, an online store. I've been in web development ever since.
+
+Home today is Kópavogur, just south of Reykjavík, and the work is mostly Ruby on Rails, a tool I've leaned on since 2009.
 
 ## What I do
 
-Since 2007 I've built software for fish auctions: live bidding, settlement, ERP integrations, and the long tail of details that make a real auction floor work. The work has run the length of the supply chain: boats, markets, and the systems that connect them. First in Icelandic markets, more recently across Europe.
+Since 2007 I've built software for fish auctions: live bidding, invoicing, ERP integrations, and all the small things that make a real auction floor run. The work covers everything from boats to buyers and the systems that connect them, first in Iceland and more recently across Europe.
 
-My current title is Software Architect, working on auction-platform systems. From the summer of 2026 onward, my time is going into independent consulting work, typically Rails projects where the domain is interesting and the team wants someone with miles on the clock.
+These days I'm a Software Architect on auction-platform systems. From summer 2026 onward I'll be going independent, taking on Rails projects where the domain is interesting and the team wants someone who's already made the mistakes and learned from them.
 
 ## Background
 
-- Three decades of programming, mostly self-taught at the start.
-- Twenty years building production software for a single, peculiar industry.
-- Properly full-stack: frontend (HTML/CSS/JS), Rails, databases, and the infrastructure underneath (Kubernetes, VMware vSphere, networking, server setup and ops). Happiest in the data model and the boring middle, but I've shipped and operated plenty of all the rest.
+Three decades of programming, mostly self-taught at the start. Twenty years in a single peculiar industry. Along the way I founded one of Iceland's first web-based streaming services (in 2008) and co-founded an auction-technology company (in 2021).
+
+I'm properly full-stack: frontend, Rails, databases, and the infrastructure underneath. The last bit covers Kubernetes, VMware vSphere, networking, server setup, and ops. Happiest in the data model and the boring middle, but I've shipped and operated plenty of the rest.
+
+Day to day I live in Neovim and Zsh, with a lot of Git.
 
 ## Off the keyboard
 
-Music, books, the North Atlantic. I'm not on social media in any meaningful way; the best way to reach me is [email](mailto:erlingur@erlingur.is).
+Married, two kids. Music, books, the North Atlantic. Not really on social media; email is the best way to reach me.

@@ -9,7 +9,7 @@ page_class: page--home
   <div class="lede-row">
     <p class="lede">
       <strong>Erlingur Þorsteinsson</strong>, software developer in Reykjavík.
-      Twenty years building software for fish auctions, in Iceland and across
+      Twenty years building software, in Iceland and across
       Europe. Available for consulting across the full stack: Ruby on Rails,
       web frontends, databases, and the infrastructure underneath.
     </p>
