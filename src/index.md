@@ -50,10 +50,9 @@ page_class: page--home
       <div class="work-card">
         <div class="work-card__title">Auction platforms</div>
         <div class="work-card__body">
-          <p>Two decades building the systems that move fish from boats to
-          markets — Icelandic and European auctions. Real-time bidding, ERP
-          integrations, settlement, and the production infrastructure that
-          kept it all running.</p>
+          <p>Two decades shipping production auction software across Iceland
+          and Europe — real-time bidding, settlement engines, ERP back-offices,
+          and the integrations that hold the supply chain together.</p>
         </div>
       </div>
       <div class="work-card">
