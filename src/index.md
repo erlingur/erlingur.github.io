@@ -24,7 +24,7 @@ page_class: page--home
       </div>
       <div class="lede-meta__row">
         <span class="lede-meta__k">Status</span>
-        <span class="lede-meta__v"><strong>↗ Available</strong></span>
+        <span class="lede-meta__v"><strong>↗&#xFE0E; Available</strong></span>
       </div>
     </aside>
   </div>
