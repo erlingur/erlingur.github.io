@@ -172,8 +172,8 @@ hr {
 
 code, pre { font-family: var(--mono); font-size: 0.92em; }
 pre {
-  padding: var(--b);
-  border: 1px solid var(--rule);
+  padding: 0.75rem var(--b);
+  background: #ece9e1;
   overflow-x: auto;
   line-height: 1.45;
   margin: 0 0 var(--b);
