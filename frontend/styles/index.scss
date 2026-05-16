@@ -317,6 +317,74 @@ blockquote {
 .work-card__body p { margin: 0; }
 .work-card + .work-card { border-top: 1px solid #d9d4c8; }
 
+// 404 -------------------------------------------------------------------------
+
+.four-oh-four {
+  padding-top: var(--b);
+  display: grid;
+  gap: 0;
+}
+
+.four-oh-four__display {
+  display: flex;
+  align-items: center;
+  gap: 0.04em;
+  font-size: clamp(7rem, 22vw, 16rem);
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  color: var(--ink);
+  user-select: none;
+  margin-bottom: var(--b);
+}
+
+.four-oh-four__digit { display: block; }
+
+.four-oh-four__clock {
+  display: block;
+  width: 0.78em;
+  height: 0.78em;
+}
+.four-oh-four__clock-disc { fill: var(--accent); }
+.four-oh-four__clock-marker {
+  fill: var(--paper);
+  opacity: 0.85;
+  transform-origin: 50% 50%;
+  transform-box: view-box;
+  /* 50ms/step = 3 frames @ 60Hz, so the rhythm stays even */
+  animation: clock-tick 3s steps(60, end) infinite;
+}
+
+@keyframes clock-tick {
+  to { transform: rotate(-360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .four-oh-four__clock-marker { animation: none; }
+}
+
+.four-oh-four__sub {
+  color: var(--mute);
+  font-size: var(--t-1);
+  margin: 0 0 calc(var(--b) * 1.5);
+  max-width: var(--measure);
+}
+
+.four-oh-four__nav {
+  list-style: none;
+  padding: var(--b) 0 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem var(--gutter);
+  font-size: var(--t-1);
+  border-top: 1px solid var(--rule);
+  max-width: var(--measure);
+}
+
+.four-oh-four__nav a { text-decoration: none; }
+.four-oh-four__nav a:hover { color: var(--accent); }
+
 // Utilities -------------------------------------------------------------------
 
 .muted { color: var(--mute); }
