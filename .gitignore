@@ -24,6 +24,9 @@ node_modules
 # Mac files
 .DS_Store
 
+# Local working notes
+TODO.md
+
 # Yarn
 yarn-error.log
 yarn-debug.log*
