@@ -15,7 +15,7 @@
   --accent: #c8201f;   // Bauhaus red, used very sparingly
 
   // Type
-  --sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --sans: "Switzer", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --mono: "JetBrains Mono", "SF Mono", ui-monospace, Menlo, Consolas, monospace;
 
   // Scale (minor third, 1.2)
@@ -55,7 +55,6 @@ body {
   font-family: var(--sans);
   font-weight: 400;
   line-height: 1.5;
-  font-feature-settings: "ss01", "cv11";
 }
 
 img, svg { display: block; max-width: 100%; }
@@ -339,6 +338,8 @@ blockquote {
 }
 
 .four-oh-four__digit { display: block; }
+/* Optical balance: the "4"'s open lower-left makes the right gap read wider. */
+.four-oh-four__digit:last-child { margin-left: -0.06em; }
 
 .four-oh-four__clock {
   display: block;
